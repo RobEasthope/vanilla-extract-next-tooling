@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { Prototype } from '../components/Prototype/Prototype'
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
         <h1>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <Prototype />
       </main>
     </div>
   )
